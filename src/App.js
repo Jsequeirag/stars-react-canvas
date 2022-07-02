@@ -1,11 +1,14 @@
-import Canvas from "./components/Canvas/Canvas";
 import Home from "./components/Home/Home";
+import Section1 from "./components/Section1/Section1";
+import Section2 from "./components/Section2/Section2";
+import "./app.css";
 function App() {
   return (
-    <div className="App">
-      <Canvas />
+    <>
       <Home />
-    </div>
+      <Section1 />
+      <Section2 />
+    </>
   );
 }
 

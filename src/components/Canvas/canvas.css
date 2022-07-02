@@ -1,6 +1,7 @@
 #stars {
-  position: absolute !important;
-  width:100%;
+  position: absolute;
+  z-index: 0;
+  filter: blur(1px) !important;
 }
 canvas {
   height: 100vh !important;
